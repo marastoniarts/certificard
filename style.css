@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #1c0e32 27.26%, #10124d 96.03%);
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.projetos-titulo p {
+  list-style: none;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 16px;
+  margin-bottom: 0;
+  text-align: center;
+  color: #ecf4ff;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  background: linear-gradient(230.65deg, #875fbd 27.49%, #fb85fd 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  padding: 36px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #623786 27.26%, #83428d 96.03%);
+}
+
+.dark .container {
+  background: #2b2d39;
+  color: #f6f6f6;
+}
+
+.dark .projetos-item {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
